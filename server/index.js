@@ -30,6 +30,7 @@ app.use(cookieParser());
 
 
 const allowedOrigins = [
+  process.env.FRONTEND_URL,
   "http://localhost:5174",  // Your React frontend
   "http://localhost:5173",  // Optional if you use other ports
   "http://localhost:3000"   // Optional if you used CRA before
