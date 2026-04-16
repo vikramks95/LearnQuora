@@ -1,0 +1,26 @@
+
+html , body{
+    overflow-x: hidden;
+}
+
+.homepage-bg {
+    background: url("../src/assets/images/img9.jpeg");
+}
+
+/* .lable-style {
+  @apply text-[14px] text-richblack-5;
+}
+.form-style {
+  @apply rounded-lg bg-richblack-700 p-3 text-[16px] leading-[24px] text-richblack-5 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-richblack-400 focus:outline-none;
+} */
+
+
+.form-style{
+  border-radius: 0.5rem;              /* rounded-lg */
+  background-color: #2c333f;         /* bg-richblack-700 */
+  padding: 0.75rem;                  /* p-3 */
+  font-size: 16px;                   /* text-[16px] */
+  line-height: 24px;                 /* leading-[24px] */
+  color: #f1f2ff;                    /* text-richblack-5 */
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.5); /* shadow-[0_1px_0_0] shadow-white/50 */
+}
